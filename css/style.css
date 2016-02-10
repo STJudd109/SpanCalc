@@ -1,0 +1,289 @@
+h1 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 b {
+  color: coral;
+  font-weight: 300;
+}
+
+h2 p {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 50px
+}
+
+h2 b {
+  display: inline-block;
+  color: coral;
+  padding-left: 45px;
+  font-size: 20px;
+}
+
+.calc-button {
+  background: #444;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px 0 10px 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+  text-align: center;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+}
+
+.calc-container {
+  width: 300px;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-top: -5px
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(#666, #222);
+  overflow: hidden;
+}
+
+.out {
+  font-size: 25px;
+  background-color: transparent;
+  Border: 0;
+  color: coral;
+}
+
+.in {
+  font-size: 20px;
+  background-color: #666;
+  border: none;
+  color: white;
+}
+
+#button {
+  Border: dashed;
+  cursor: pointer;
+}
+
+#button:hover {
+  border: solid;
+  color: coral;
+}
+
+#notes {
+  height: 100px;
+  width: 285px;
+  border-radius: 20px;
+}
+
+#notess {
+  height: 300px;
+  width: 285px;
+  border-radius: 40px;
+}
+
+.light-set1 {
+  width: 159px;
+  display: inline-block;
+  float: left;
+}
+
+.light-set2 {
+  display: inline-block;
+}
+
+.light-padding16 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  padding: 3px;
+}
+
+.light-padding16 a {
+  color: white;
+}
+
+.light-padding24 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-padding24 a {
+  color: white;
+}
+
+.light {
+  height: 28px;
+  width: 28px;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  margin: 0px -2px;
+  text-align: center;
+}
+
+#light4 {
+  background-color: #000;
+}
+
+#light6 {
+  background-color: #000;
+}
+
+#light8 {
+  background-color: #000;
+}
+
+#light10 {
+  background-color: #000;
+}
+
+#light42 {
+  background-color: #000;
+}
+
+#light62 {
+  background-color: #000;
+}
+
+#light82 {
+  background-color: #000;
+}
+
+#light102 {
+  background-color: #000;
+}
+
+#light43 {
+  background-color: #000;
+}
+
+#light63 {
+  background-color: #000;
+}
+
+#light83 {
+  background-color: #000;
+}
+
+#light103 {
+  background-color: #000;
+}
+
+#light44 {
+  background-color: #000;
+}
+
+#light64 {
+  background-color: #000;
+}
+
+#light84 {
+  background-color: #000;
+}
+
+#light104 {
+  background-color: #000;
+}
+/* TEST CODE */
+
+.nav-tabs {
+  width: 95px;
+  padding: -4px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.tab-edit > ul {
+  border-bottom-color: transparent;
+}
+
+.nav-tabs > img {
+    width: 70px;
+}
+
+.nav-tabs > li > a {
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background: #444;
+  color: white;
+}
+
+.nav-tabs > li {
+  margin: 2px 0px;
+  padding: 2px;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #303136 !important;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  color: #fff;
+}
+
+.nav-tabs > li.active > a {
+  background-color: #fff !important;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  color: #303136;
+}
+
+form {
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-left: auto;
+  width: 250px;
+  height: 180px;
+}
+
+form td {
+  padding: 2px;
+}
+
+.tab-container {
+  display: block;
+  background: #444;
+  box-sizing: border-box;
+  border-radius: 10px 0px 10px 0px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+  text-align: center;
+  width: 320px;
+  height: 500px;
+}
+
+.both-blocks {
+  padding: 10px;
+  display: block;
+  width: 434px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border-radius: 20px 0 20px 0;
+  cursor: ;
+  background: -webkit-linear-gradient(top left, white 50%, coral 50%);
+  background: -moz-linear-gradient(top left, white 50%, coral 50%);
+  background: -ms-linear-gradient(top left, white 50%, coral 50%);
+  background: -o-linear-gradient(top left, white 50%, coral 50%);
+  background: linear-gradient(top left, white 50%, coral 50%);
+}
